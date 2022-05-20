@@ -2,7 +2,7 @@
 set search_path to landarch_app;
 
 -- mock users for app_users
-insert into app_users(first_name, last_name, username, password)
+insert into app_users(firstname, lastname, username, password)
 values 
 ('Raymond', 'Sanchez', 'rsanchez78', 'raymonds78'),
 ('Sally', 'Fields', 'sfields67', 'sallyf67'),
